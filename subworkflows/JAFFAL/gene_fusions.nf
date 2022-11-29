@@ -22,7 +22,7 @@ process jaffal{
         -p annotation=$annotation \
         -p fastqInputFormat="*.fastq" \
         $params.jaffal_dir/JAFFAL.groovy \
-        $fastq || :
+        $fastq ||:
 
     summary="\$JAFFAOUT/all/all.summary"
 
